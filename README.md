@@ -11,6 +11,7 @@ History of searches are collected in local storage and displayed on to the page
 
 ## Website
 
+https://cj-saurus.github.io/Weather-Dashboard/
 
 ## Screenshot
 
