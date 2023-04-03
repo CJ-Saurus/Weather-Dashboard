@@ -14,4 +14,4 @@ History of searches are collected in local storage and displayed on to the page
 
 ## Screenshot
 
-<img src="./assets/images/Weather.png>
+<img src="./assets/images/Weather.png"/>
