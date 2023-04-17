@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Weather App</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Day Forecast</title>
     <link rel="stylesheet" href="./assets/style.css">
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-	<h1>5 Day Weather Forecast</h1>
-	<label for="location">Enter Location:</label>
-	<input type="text" id="location">
-	<button onclick="getWeather()">Get Weather</button>
-	<div id="weather"></div>
+        <h1>5 Day Weather Forecast</h1>
+        <label for="location">Enter Location:</label>
+        <input type="text" id="location">
+        <button onclick="getWeather()">Get Weather</button>
+        <div id="weather"></div>
+        
+        <div class="forecast-container"></div>
     
-    <div class="forecast-container"></div>
 </body>
 <script src="./assets/script.js"></script>
 </html>
