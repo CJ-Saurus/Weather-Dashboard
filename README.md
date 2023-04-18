@@ -15,4 +15,4 @@ https://cj-saurus.github.io/Weather-Dashboard/
 
 ## Screenshot
 
-<img src="./assets/images/Weather.png"/>
+<img src="./assets/images/Screenshot.png"/>

@@ -1,6 +1,8 @@
 function getWeather() {
+
     const location = document.getElementById("location").value;
   
+
     // Get weather data from API
     const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&units=metric&appid=20986e0e482c5a5e1fe8ea12091eb625`;
     
@@ -11,6 +13,10 @@ function getWeather() {
         let forecast = "";
         const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
         const forecastContainer = document.querySelector(".forecast-container");
+
+        //Removes existing forecast from DOM
+        forecastContainer.innerHTML = "";
+
         for (let i = 0; i < data.list.length; i += 8) {
           const time = data.list[i].dt;
           const date = new Date(time * 1000);
@@ -29,6 +35,8 @@ function getWeather() {
         // Update forecast display on webpage
         const weatherDiv = document.getElementById("weather");
         weatherDiv.innerHTML = forecast;
+
       })
       .catch(error => console.log(error));
   }
+  
